@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/gato_fiesta.ico">
+    <link rel="stylesheet" href="form.css">
+    <title>Pets & Cakes</title>
+</head>
+<body>
+    <div>
+        <h1>ESTE ES NUESTRO FORMULARIO DE CONTACTO</h1>
+        <p>A través de este formulario puede registrarse en nuestro sitio para permanecer conectado.</p>
+    </div>
+    <div>
+        <img src="img/perro_gato.jpg" width="150" height="150" alt="Esta es una imagen">
+    </div>
+    <form action="" method="GET">
+        <label><p>Mascota: <input type="text" name="mascota"></p></label>
+        <br>
+        <label><p>Apellido: <input type="text" name="apellido"></p></label>
+        <label><p>Nombre: <input type="text" name="nombre"></p></label>
+        <label><p><input type="checkbox" name="registro">Acepto las condiciones de registro del sitio</p></label>
+        <label><p>Color favorito: <input type="color" name="color"></p></label>
+        <label><p>Documento: <input type="number" name="documento"></p></label>
+        <p>Género:</p>
+        <label><input type="radio" name="genero" value="masculino">HOMBRE</label>
+        <label><input type="radio" name="genero" value="femenino">MUJER</label>
+        <label><input type="radio" name="genero" value="otro">OTRO</label>
+        <br>
+        <P>Estado civil:</P>
+        <select name="estado" id="">
+            <option value="0">Soltero/a</option>
+            <option value="1">Casado/a</option>
+            <option value="2">Otro</option>
+        </select>
+        <p>Deje su comentario aquí:</p>
+        <textarea name="mensaje" placeholder="Escriba aquí." cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" name="Enviar">
+        <input type="reset" value="Restablecer">
+    </form>
+
+
+
+</body>
+</html>
